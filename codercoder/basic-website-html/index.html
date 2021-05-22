@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--character set for HTML, learn new ones?-->
+        <meta charset="utf-8">
+        <!--???, width of device, scale (zoom) set to 1-->
+        <meta name="viewport" content="width=device_width, initial-scale=1">
+        <title>My First Website</title>
+    </head>
+    <body>
+        <h1>My First Website</h1>
+        <h2>An HTML Playground</h2>
+        <h3>An HTML Playground</h3>
+        <h4>An HTML Playground</h4>
+        <h5>An HTML Playground</h5>
+        <h6>An HTML Playground</h6>
+        
+        This is my very first website and I'm <b>extremely excited!!!</b>
+
+        <!--need to figure out how to get the p to display on my screen and not as an inifinite off-screen sentence...-->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id mauris eget lacus blandit pretium eu eget diam. Praesent commodo, quam ut congue posuere, tellus tellus maximus turpis, convallis molestie nisi tellus id enim. Suspendisse et malesuada eros. Integer vitae tincidunt lacus, dictum suscipit dolor. Vestibulum consectetur erat id elit aliquet porta. In maximus, enim at gravida faucibus, lacus turpis luctus tellus, vel dictum lacus nunc eu elit. Ut sit amet ex neque. Vestibulum convallis, magna a tempor maximus, velit elit egestas urna, non interdum ligula dui non leo. Donec aliquam, velit ut varius finibus, turpis urna elementum lorem, ac auctor odio tortor in ligula. Praesent ornare enim erat, ac posuere mi luctus nec. Nam sed pharetra justo. Aliquam et lorem blandit, vestibulum mauris ut, porttitor dui. Etiam ultricies sapien ipsum, a venenatis enim interdum nec.
+        </p>
+
+        <p>
+            Phasellus et justo eu sem commodo placerat. Sed cursus augue vel dolor tincidunt lobortis. Aliquam erat volutpat. Sed sed viverra tellus, nec posuere ante. Fusce posuere diam vel leo sodales molestie. Nulla facilisi. Fusce in mi nec orci efficitur hendrerit ac in turpis. Morbi ex tellus, rhoncus non ipsum eget, molestie efficitur lectus. Nulla at velit ac sapien laoreet egestas.
+        </p>
+
+        Fusce sed pharetra libero. <br><br><br><br>
+        <br/>
+        <!--br is new HTML, and both don't need closers-->
+        <!--br/ is HTML X, will still work, but not necesary-->
+        <b>In quis nunc lacus.</b><br><br>
+        <i>Nunc eget eros lectus.</i><br>
+        <u>Sed non tortor ac lectus cursus pharetra ut a ante.</u><br>
+        <!--emphasis tag default is italics-->
+        <em>Aenean euismod vulputate massa.</em><br>
+        <!--strong tag default is bold-->
+        <strong>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</strong>
+        <!--horizontal rule tag, is just a horizontal line-->
+        <hr>
+        <!--link tag is a for anchor-->
+        <!--href is hypertext reference, url (universal resource locator) goes here-->
+        <!--target tag decides if link opens in same page, or new page/tab. same page is default (blank is blank tab)-->
+        Nullam posuere sem sit amet sollicitudin imperdiet. <a href="https://www.google.com"target=" blank">Proin eu accumsan lectus, id dapibus quam.</a> Proin et nisi vel sapien pellentesque vestibulum. Aliquam erat volutpat. Donec mauris augue, dapibus nec feugiat at, porttitor non mi. Nam tempus ex dui, eget pellentesque velit condimentum vel. Phasellus in erat sed ipsum vestibulum pharetra eget eget nunc. Nunc sed eros eu ipsum vehicula volutpat. Praesent laoreet odio at laoreet fringilla. Phasellus elementum vitae elit sed accumsan.
+        <br>
+
+        <!--displays image, uses src (source of the image) instead of href-->
+        <!--you can change sizes, so 350x100, 600x300, etc-->
+        <img src="http://via.placeholder.com/350x100">
+
+        <!--better option is to download to computer and link from there-->
+        <!--border attribute as well-->
+        <img src=350x100.png border="10">
+
+        <!--ul or ol for unordered and ordered lists, li for list item-->
+
+        <ol>
+            <li>apples</li>
+            <li>oranges</li>
+            <li>pineapples</li>
+            <li>mangoes</li>
+            <li>dragonfruit</li>
+        </ol>
+
+        <!--working with ul for now tho; this is nesting lists, with child and parent element-->
+        <ul>
+            <li>apples
+                <ul>
+                    <li>golden delicious</li>
+                    <li>granny smith</li>
+                    <li>gala</li>
+                </ul>
+            </li>
+            <li>oranges</li>
+            <li>pineapples</li>
+            <li>mangoes</li>
+            <li>dragonfruit</li>
+        </ul>
+
+        <!--table time! table row, table header, callspan/column span-->
+        <table border="10" cellpadding="10" cellspacing="0">
+            <tr>
+                <th></th>
+                <th>Month</th>
+                <th>Rent</th>
+                <th colspan="2">Utilities</th>
+                <th>Groceries</th>
+                <th>Eating Out</th>
+                <th>Entertainment</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Fall</td>
+                <td>June</td>
+                <td>$1500</td>
+                <td>$100</td>
+                <td>$50</td>
+                <td>$350</td>
+                <td>100</td>
+                <td>$50</td>       
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>$1500</td>
+                <td>$100</td>
+                <td>$50</td>
+                <td>$350</td>
+                <td>100</td>
+                <td>$50</td>       
+            </tr>
+            <tr>
+                <td>August</td>
+                <td>$1500</td>
+                <td>$100</td>
+                <td>$50</td>
+                <td>$350</td>
+                <td>100</td>
+                <td>$50</td>       
+            </tr>
+        </table>
+
+
+
+    </body>
+</html>
